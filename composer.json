@@ -1,0 +1,41 @@
+{
+    "config": {
+        "sort-packages": true
+    },
+    "name": "pe/component-smtp",
+    "description": "SMTP protocol implementation",
+    "keywords": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eugene Pavlenko",
+            "email": "pavlenko.obs@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "php-mock/php-mock": "^2.1",
+        "php-mock/php-mock-phpunit": "^2.3",
+        "psr/log": "^1.1",
+        "phpunit/phpunit": "~6.0",
+        "symfony/var-dumper": "^4.2"
+    },
+    "suggest": {},
+    "autoload": {
+        "psr-4": {
+            "PE\\Component\\SMTP\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PE\\Component\\SMTP\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
